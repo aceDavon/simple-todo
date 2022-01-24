@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+}
+
+#banner {
+    text-align: center;
+    padding: 12px;
+    text-shadow: 2px 5px 3px rgba(56, 54, 54, 0.4);
+}
+
+.todo_banner {
+    width: 50%;
+    margin: auto;
+    padding: 10px 5px;
+    border: 1px dotted skyblue;
+    border-width: 2px;
+    border-radius: 8px;
+    background-color: #dedede;
+    box-shadow: 3px 5px 2px rgba(139, 137, 137, 0.2);
+}
+
+#todo_input {
+    width: 85%;
+    padding: 8px 3px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #ded2dd;
+}
+
+#todo_input:focus {
+    background-color: white;
+    border: green 1px solid;
+}
+
+.todo_btn {
+    padding: 5px 8px;
+    background-color: orange;
+    border: 1px solid orchid;
+    border-radius: 12px;
+    color: #fff;
+    appearance: button;
+}
+
+.box {
+    margin: 20px;
+    background-color: red;
+    height: 200px;
+    width: 220px;
+    color: black;
+    display: none;
+    font-size: large;
+}
+
+.table {
+    margin: 8px auto;
+    background-color: rgba(56, 54, 54, 0.116);
+    border-radius: 12px;
+    box-shadow: 3px 4px 2px rgba(56, 54, 54, 0.2);
+}
+
+.table th,
+#tableBody,
+#tableBody td {
+    border-collapse: collapse;
+    border-bottom: 1px solid #dedede;
+    font-size: medium;
+    text-align: left;
+    padding: 5px 50px;
+}
+
+#todo_list li{
+    color: black;
+    padding: 12px 50px;
+    margin: 2px 35px;
+    align-Items: center;
+    list-style: none;
+    background-color: #dedede;
+    position: relative;
+    border-radius: 8px;
+    font-size: small;
+}
+
+.delBtn {
+    padding: 5px;
+    background-Color: red;
+    color: white;
+    border-radius: 12px;
+    border: 1px solid white;
+    cursor: pointer;
+    position: absolute;
+    left: 70%;
+}
+
+.check_btn {
+    position: absolute;
+    left: 2%;
+    top: 50%;
+    height: 25px;
+    width: 15px;
+    transform: translateY(-50%);
+
+}
