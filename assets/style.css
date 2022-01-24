@@ -78,8 +78,6 @@ html {
     color: black;
     padding: 12px 50px;
     margin: 2px 35px;
-    align-Items: center;
-    list-style: none;
     background-color: #dedede;
     position: relative;
     border-radius: 8px;
@@ -104,5 +102,4 @@ html {
     height: 25px;
     width: 15px;
     transform: translateY(-50%);
-
 }
